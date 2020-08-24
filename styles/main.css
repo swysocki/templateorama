@@ -127,7 +127,7 @@ i.arrow {
  */
 
 .banner {
-    background: transparent url('/static/images/banner_image.jpg') 0 80% no-repeat fixed;
+    background: transparent url('static/images/banner_image.jpg') 0 80% no-repeat fixed;
     text-align: center;
     background-size: cover;
     height: 200px;
