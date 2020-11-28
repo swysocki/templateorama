@@ -2,7 +2,9 @@
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
-html, body{
+
+html,
+body {
     height: 100%;
 }
 
@@ -51,6 +53,8 @@ i.arrow {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
+
+
 /*
  * -- Main Content --
  */
@@ -59,10 +63,12 @@ i.arrow {
     margin: 0.5em;
 }
 
+
 /*
  * -- Menu (Navigation) STYLES --
  * Make the menu have a very faint box-shadow.
  */
+
 .pure-menu-link {
     padding: .5em .7em;
     text-transform: uppercase;
@@ -81,14 +87,6 @@ i.arrow {
     text-transform: none;
     font-size: 250%;
     color: black;
-}
-
-/* plain links */
-.tourny-links {
-    text-decoration: none;
-    color: darkslategray;
-    padding: 5px 5px 5px 0px;
-    display: inline-block;
 }
 
 .l-content {
@@ -111,7 +109,9 @@ i.arrow {
     background-color: white;
 }
 
+
 /* wrap scores tables for more space */
+
 .pure-table {
     display: inline-block;
     vertical-align: top;
@@ -144,15 +144,17 @@ i.arrow {
     text-shadow: 0 1px 1px black;
 }
 
+
 /*
  * -- PANEL TABLE WRAPPER --
  * This element wraps up all the panel section elements
  */
 
+
 /* override the icon color */
+
 .fa-2x {
     color: black;
-    /*color: white;*/
 }
 
 .panel-wrapper {
@@ -174,39 +176,11 @@ i.arrow {
     padding: 0 0 3em;
 }
 
-/*
-* -- List table styles
-*/
-.tournament {
-    letter-spacing: 0;
-    max-width: 980px;
-    text-transform: none;
-    font-family: "Roboto", sans-serif;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.tournament h2 {
-    text-transform: none;
-    letter-spacing: 0;
-    text-align: left;
-    margin-top: 2em;
-}
-
-.tournament h3 {
-    text-align: left;
-    letter-spacing: 0;
-    text-transform: none;
-    margin-bottom: .5em;
-}
-
-.tournament tr {
-    text-align: left;
-}
 
 /* 
 * -- Footer Styles
 */
+
 .footer {
     padding: 1em 2em;
     line-height: 1em;
@@ -224,11 +198,12 @@ i.arrow {
     padding: 0;
 }
 
-.footer-item{
+.footer-item {
     padding: .25em 0em;
     font-size: .9em;
 }
-a.footer-item{
+
+a.footer-item {
     text-decoration: underline;
 }
 
@@ -237,32 +212,33 @@ a.footer-item{
     color: lightgray;
     font-size: .8em;
 }
+
+
 /*
  * -- TABLET MEDIA QUERIES --
  * On tablets, we want to slightly adjust the size of the banner
  * text and add some vertical space between the various pricing tables
  */
-@media(min-width: 767px) {
 
+@media(min-width: 767px) {
     .banner-head {
         font-size: 2em;
     }
-
     .pricing-table {
         margin-bottom: 0;
     }
-
 }
+
 
 /*
  * -- PHONE MEDIA QUERIES --
  * On phones, we want to reduce the height and font-size of the banner further
  */
+
 @media (min-width: 480px) {
     .banner {
         height: 400px;
     }
-
     .banner-head {
         font-size: 3em;
     }
